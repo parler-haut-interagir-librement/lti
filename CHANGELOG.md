@@ -4,9 +4,15 @@ All notable changes to `phil/lti` will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com/) principles.
 
+## 0.2.1-alpha - 2026-11-24
+
+### Changed
+
+- Requires the latest minor of each dependency (`symfony/cache-contracts` 3.8, `symfony/service-contracts` 3.8).
+
 ## 0.2.0-alpha - 2026-11-17
 
-The next version is 0.2.0-alpha: `ScoreStore::record()` answers whether it kept the score, `AgsService::lineItems()`
+`ScoreStore::record()` answers whether it kept the score, `AgsService::lineItems()`
 answers a page, and `DeepLinkingResult` gains its key and its claims.
 
 ### Added
